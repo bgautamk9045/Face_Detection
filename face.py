@@ -1,7 +1,7 @@
 import cv2
 
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('aman.xml')
+face_cascade = cv2.CascadeClassifier('face_xml.xml')
 
 # Read the input image
 img = cv2.imread('ww.jpg')
